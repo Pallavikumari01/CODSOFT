@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+html, body{
+    height: auto;
+    width: auto;
+    font-family: 'Lobster' ;
+}
+.button{
+
+    margin: 0px 2px;
+    padding: 12px 18px;
+    border: 3px rgb(41, 210, 216) solid;
+    
+    border-radius: 9px;
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+    font-style: italic;
+    color: aliceblue;
+}
+.button:hover{
+    background: rgb(41, 210, 216);
+}
+.row{
+    margin: 8px 0;
+}
+.row input{
+    
+    padding: 15px 23px;
+    border: 5px rgb(41, 210, 216) solid;
+    border-radius: 9px;
+    font-size: 14px;
+}
